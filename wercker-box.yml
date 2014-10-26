@@ -21,9 +21,11 @@ script: |
   sudo apt-get remove optipng 
   sudo apt-get update
 
-  # compass
+  # gems
   sudo gem install compass
-
+  sudo gem install bundler
+  bundle install
+  
   # node.js
   sudo npm cache clean -f
   sudo npm install -g n
