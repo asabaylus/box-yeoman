@@ -1,5 +1,5 @@
 name: box-yeoman-gulp-compass
-version: 0.5.6
+version: 0.5.7
 inherits: wercker/ubuntu12.04-nodejs0.10@1.2.0
 type: main
 platform: ubuntu@12.04
