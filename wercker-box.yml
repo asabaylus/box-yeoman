@@ -3,7 +3,7 @@ version: 0.5.8
 inherits: wercker/ubuntu12.04-nodejs0.10@1.2.0
 type: main
 platform: ubuntu@12.04
-description: "node.js, compass, yeoman, grunt, bower, phantomjs, karma"
+description: "node.js, compass, yeoman, grunt, bower, phantomjs, karma, bundler"
 packages:
   - nodejs@0.10.29
   - phantomjs@1.9.8
@@ -16,6 +16,7 @@ keywords:
   - bower
   - phantomjs
   - karma
+  - bundler
 script: |
   # remove the default installed optipng as it is too old
   sudo apt-get remove optipng 
