@@ -1,12 +1,12 @@
 name: box-yeoman-gulp-compass
-version: 0.5.7
+version: 0.5.8
 inherits: wercker/ubuntu12.04-nodejs0.10@1.2.0
 type: main
 platform: ubuntu@12.04
 description: "node.js, compass, yeoman, grunt, bower, phantomjs, karma"
 packages:
   - nodejs@0.10.29
-  - phantomjs@1.9.7
+  - phantomjs@1.9.8
   - compass@1.0.1
 keywords:
   - nodejs
@@ -38,7 +38,7 @@ script: |
   sudo npm install --global gulp 
 
   # phantomjs
-  export PHANTOM_VERSION=1.9.7
+  export PHANTOM_VERSION=1.9.8
   wget https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-$PHANTOM_VERSION-linux-x86_64.tar.bz2
   tar xfj phantomjs-$PHANTOM_VERSION-linux-x86_64.tar.bz2
   sudo cp phantomjs-$PHANTOM_VERSION-linux-x86_64/bin/phantomjs /usr/local/bin
